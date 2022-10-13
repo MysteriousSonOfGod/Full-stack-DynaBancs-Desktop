@@ -1,1 +1,7 @@
+from PyQt6.QtWidgets import QApplication, QWidget
+import sys
 
+app = QGuiApplication(sys.argv)
+window = QWidget()
+window.show
+app.exec()
